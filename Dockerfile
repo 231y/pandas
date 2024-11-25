@@ -1,4 +1,4 @@
-FROM python:3.14.0a1
+FROM python:3.14.0a1-slim-bookworm
 WORKDIR /home/pandas
 
 RUN apt-get update && apt-get -y upgrade
